@@ -78,7 +78,8 @@ boost_library(
 boost_library(
     name = "beast",
     deps = [
-        ":asio"
+        ":asio",
+        ":smart_ptr"
     ]
 )
 
