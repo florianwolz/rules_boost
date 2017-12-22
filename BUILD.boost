@@ -76,6 +76,13 @@ boost_library(
 )
 
 boost_library(
+    name = "beast",
+    deps = [
+        ":asio"
+    ]
+)
+
+boost_library(
     name = "bind",
     deps = [
         ":get_pointer",
