@@ -79,7 +79,8 @@ boost_library(
     name = "beast",
     deps = [
         ":asio",
-        ":smart_ptr"
+        ":smart_ptr",
+        ":system"
     ]
 )
 
